@@ -1,0 +1,101 @@
+body {
+  background-color: rgb(11, 82, 130);
+  font-family: monospace;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+img:active {
+  transform: translateY(8px);
+}
+
+h1 {
+  font-size: 40px;
+  color: #ef4646;
+}
+
+.ninja_money,
+.nps {
+  font-size: 30px;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+/* ninja star lvl */
+#ninjah {
+  position: absolute;
+  right: 30px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: Georgia;
+  color: #ffffff;
+  text-align: center;
+}
+
+.double {
+  position: absolute;
+  margin-top: 120px;
+  font-size: 20px;
+  right: 30px;
+  font-family: Georgia;
+  color: #ffffff;
+  text-align: center;
+}
+
+.ninja {
+  position: absolute;
+  margin-top: 230px;
+  font-size: 20px;
+  right: 30px;
+  font-family: Georgia;
+  color: #ffffff;
+  text-align: center;
+}
+
+.doubleSpeed {
+  position: absolute;
+  margin-top: 260px;
+  font-size: 20px;
+  right: 30px;
+  font-family: Georgia;
+  color: #ffffff;
+}
+
+button {
+  padding: 5px;
+  width: 300px;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+  font-weight: 700;
+  background-color: rgb(0, 127, 170);
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button:hover {
+  background-color: rgb(0, 120, 150);
+}
+
+.achievement {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  margin-left: 20px;
+  font-size: 20px;
+  font-family: Georgia;
+  color: #ffffff;
+  padding: 10px;
+}

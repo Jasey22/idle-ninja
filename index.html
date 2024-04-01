@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ninja Clicker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Ninja Clicker</h1>
+      <img
+        src="/img/ninja.png"
+        alt="ninja"
+        width="270"
+        onclick="ninja_click()"
+      />
+
+      <!-- ninja per second -->
+      <div class="nps">NinjaPerSecond: <span id="nps">0</span></div>
+      <div class="ninja_money">Ninja Money: $<span id="counter">0</span></div>
+
+      <!-- ninja star -->
+      <div id="ninjah">
+        Ninja Star - Lvl <span id="counter_two">0</span><br />
+
+        <button onclick="btn()">
+          <img src="/img/ninjastar.png" alt="" width="60" />Add +1 Ninja Star -
+          $<span id="star_upgrade">20</span>
+        </button>
+      </div>
+
+      <!-- double click -->
+      <div class="double">
+        Double Click - Lvl <span id="double_counter">0</span> <br />
+        <button onclick="double()">
+          <img src="/img/ai-cat.png" alt="" width="60" /> Add Double Click - $10
+        </button>
+      </div>
+
+      <!-- ninja  -->
+      <div class="ninja">
+        Ninja Warriors - Lvl <span id="counter_three">0</span> <br />
+        <button onclick="btn_two()">
+          <img src="/img/ninja2.png" alt="" width="60" />Add +5 Ninja Guy -
+          $<span id="warrior_upgrade">50</span>
+        </button>
+      </div>
+
+      <div class="achievement">
+        <p id="unlock" style="display: none">
+          <img src="/img/ninja1.png" alt="ninja" width="100" />Achievement
+          Unlocked - Ninja Master!
+        </p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
